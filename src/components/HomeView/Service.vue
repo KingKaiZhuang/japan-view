@@ -21,22 +21,25 @@
         <div class="container row justify-content-center">
             <div class="col-6">
                 <div class="photo">
-                    <img src="https://picsum.photos/160/130" alt="">
+                    <img src="https://picsum.photos/id/237/200/300" alt="">
                 </div>
                 <p>Hello</p>
             </div>
             <div class="col-6">
                 <div class="photo">
-                    <img src="https://picsum.photos/160/130" alt="">
+                    <img src="https://picsum.photos/id/238/200/300" alt="">
                 </div>
                 <p>Hello</p>
             </div>
             <div class="col-6">
                 <div class="photo">
-                    <img src="https://picsum.photos/160/130" alt="">
+                    <img src="https://picsum.photos/id/239/200/300" alt="">
                 </div>
                 <p>Hello</p>
             </div>
+        </div>
+        <div class="foot">
+            <h2>SERVICE</h2>
         </div>
     </div>
 </template>
@@ -47,6 +50,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.pattern {
+    display: block;
 }
 
 .grid-container {
@@ -88,5 +95,14 @@
     width: 160px;
     height: 130px;
     overflow: hidden;
+}
+.foot { 
+    margin-top: 30px;
+}
+.foot h2 { 
+    margin-right: -5px;
+    letter-spacing: 5px;
+    font-size: 20vw;
+    color: #333;
 }
 </style>
