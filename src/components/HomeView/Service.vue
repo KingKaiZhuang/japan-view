@@ -19,23 +19,26 @@
             <p>枠に捉われない発想と高い技術力、そして丁寧な進行を大切に。心を動かすクリエイティブを届けていきます。</p>
         </div>
         <div class="container row justify-content-center">
-            <div class="col-6">
+            <div class="photo col-6">
                 <div class="photo">
                     <img src="https://picsum.photos/id/237/200/300" alt="">
+                    <p>モーショングラフィックス</p>
+                    <p>アニメーション</p>
                 </div>
-                <p>Hello</p>
             </div>
             <div class="col-6">
                 <div class="photo">
                     <img src="https://picsum.photos/id/238/200/300" alt="">
+                    <p>3DCGデザイン</p>
+                    <p>VR開発</p>
                 </div>
-                <p>Hello</p>
             </div>
             <div class="col-6">
                 <div class="photo">
                     <img src="https://picsum.photos/id/239/200/300" alt="">
+                    <p>キャラクターデザイン</p>
+                    <p>イラスト制作</p>
                 </div>
-                <p>Hello</p>
             </div>
         </div>
         <div class="foot">
@@ -57,15 +60,15 @@
 }
 
 .grid-container {
-    margin-block: 50px;
+    margin-block: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* 3列 */
     grid-template-rows: repeat(3, 1fr);
     /* 格子之間的間隔 */
-    width: 170px;
+    width: 130px;
     /* 整體寬度 */
-    height: 170px;
+    height: 130px;
     /* 整體高度 */
 }
 
@@ -92,9 +95,21 @@
     font-size: 14px;
 }
 .photo {
-    width: 160px;
-    height: 130px;
-    overflow: hidden;
+    width: 128px;
+    height: 180px;
+    /* overflow: hidden; */
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.photo img {
+    width: 128px;
+    height: 128px;
+}
+.photo p {
+    margin-top: 10px;
+    font-size: 10px;
 }
 .foot { 
     margin-top: 30px;
@@ -103,6 +118,6 @@
     margin-right: -5px;
     letter-spacing: 5px;
     font-size: 20vw;
-    color: #333;
+    color: #33333396;
 }
 </style>
