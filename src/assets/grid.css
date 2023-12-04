@@ -214,7 +214,7 @@
 }
 
 [class^='col']{
-    padding: 15px;
+    padding: 0px;
 }
 
 .no-gutters > [class^='col'] {

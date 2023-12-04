@@ -1,29 +1,56 @@
 <template>
     <div class="service">
-        <div class="grid-container">
-            <div>W</div>
-            <div>H</div>
-            <div>O</div>
-            <div>W</div>
-            <div></div>
-            <div>E</div>
-            <div>A</div>
-            <div>R</div>
-            <div>E</div>
+        <div class="pattern">
+            <div class="grid-container">
+                <div>W</div>
+                <div>H</div>
+                <div>O</div>
+                <div>W</div>
+                <div></div>
+                <div>E</div>
+                <div>A</div>
+                <div>R</div>
+                <div>E</div>
+            </div>
+        </div>
+        <div class="content-text">
+            <p>Unplug（アンプラグ）は、モーショングラフィックス・CG専門の制作スタジオです。WEB
+                CMや企業VP、MVやイベント、CG・VR開発など、あらゆるジャンルの映像を多彩なデジタルグラフィックを用いて制作しているチームです。</p>
+            <p>枠に捉われない発想と高い技術力、そして丁寧な進行を大切に。心を動かすクリエイティブを届けていきます。</p>
+        </div>
+        <div class="container row justify-content-center">
+            <div class="col-6">
+                <div class="photo">
+                    <img src="https://picsum.photos/160/130" alt="">
+                </div>
+                <p>Hello</p>
+            </div>
+            <div class="col-6">
+                <div class="photo">
+                    <img src="https://picsum.photos/160/130" alt="">
+                </div>
+                <p>Hello</p>
+            </div>
+            <div class="col-6">
+                <div class="photo">
+                    <img src="https://picsum.photos/160/130" alt="">
+                </div>
+                <p>Hello</p>
+            </div>
         </div>
     </div>
-    
 </template>
 
 <style>
 .service {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .grid-container {
-    margin-top: 50px;
+    margin-block: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* 3列 */
@@ -44,5 +71,22 @@
     font-size: 30px;
     font-weight: bold;
     color: #333;
+}
+
+.content-text {
+    width: 85%;
+}
+
+.content-text p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.photo {
+    width: 160px;
+    height: 130px;
+    overflow: hidden;
 }
 </style>
