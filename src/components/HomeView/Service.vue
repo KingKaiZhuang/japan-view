@@ -57,10 +57,12 @@
 
 .pattern {
     display: block;
+    width: 100%;
 }
 
 .grid-container {
     margin-block: 30px;
+    margin-inline: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* 3列 */

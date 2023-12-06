@@ -14,7 +14,7 @@
 
 <style>
 .banner {
-    background-image: url("https://cdn.mos.cms.futurecdn.net/qMRagLMmCvMsHQHfvmWT2e-1200-80.jpg");
+    background-image: url("https://th.bing.com/th/id/OIG.SKvW4qfWXKjq4TF344ts?pid=ImgGn");
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
