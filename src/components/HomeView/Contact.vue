@@ -16,18 +16,18 @@
             </div>
             <p>モーショングラフィックス・CG制作にご協力いただける、ディレクターやクリエイター様を募集しています。</p>
         </div>
-
     </div>
+    <ContactSend/>
 </template>
 
 <style>
 .contact {
     background: #121212;
-    height: 665px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 665px;
 }
 .contact .content-grup {
     width: 90%;
@@ -63,4 +63,17 @@
     letter-spacing: 1px;
     border-bottom: #555555 solid 1px;
 }
+.send-group {
+    height: 744px;
+}
 </style>
+
+<script>
+import ContactSend from './ContactSend.vue';
+
+export default {
+    components: {
+        ContactSend
+    }
+}
+</script>
