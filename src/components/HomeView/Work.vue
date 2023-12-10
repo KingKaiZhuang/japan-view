@@ -43,9 +43,7 @@ hr {
     height: 1px;
 }
 .viewall {
-    position: absolute;
-    top: 160px;
-    right: 20px;
+    margin: 20px 20px 0 0;
     display: flex;
     align-items: center;
 }

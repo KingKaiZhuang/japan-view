@@ -17,8 +17,8 @@
                 <a href="#">Contact</a>
                 <a href="#">About</a>
             </div>
-            <div class="footer">
-                <i class="fa-solid fa-x"></i>
+            <div class="nav-footer">
+                <i @click="MenuButtonClick" class="fa-solid fa-x"></i>
                 <p @click="MenuButtonClick">Close</p>
             </div>
         </div>
@@ -118,18 +118,18 @@ nav {
     font-size: 25px;
     padding-block: 20px;
 }
-.menu .footer {
+.menu .nav-footer {
     width: 100%;
     text-align: center;
     /* background: #ffe277; */
 }
-.menu .footer i {
+.menu .nav-footer i {
     font-size: 40px;
     font-weight: lighter;
     padding-block-start: 50px;
     color: #565656;
 }
-.menu .footer p {
+.menu .nav-footer p {
     padding-top: 5px;
     color: #a2a2a2;
 }

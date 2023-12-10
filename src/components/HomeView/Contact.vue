@@ -47,7 +47,7 @@
     display: inline-block;
     
     margin-block: 15px;
-    padding:8px 0 8px 12px;
+    padding:8px 0 8px 12px; 
     border: #555555 solid 1px;
 }
 .contact .content-grup .organization p {
